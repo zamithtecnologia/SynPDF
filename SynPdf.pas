@@ -121,7 +121,7 @@ unit SynPdf;
   {$undef USE_UNISCRIBE}
 {$endif}
 
-{$define USE_SYNGDIPLUS}
+//{$define USE_SYNGDIPLUS}
 { - if defined, the PDF engine will use SynGdiPlus to handle all
     JPG, TIF, PNG and GIF image types (prefered way, but need XP or later OS)
   - if you'd rather use the default jpeg unit (and add some more code to your
